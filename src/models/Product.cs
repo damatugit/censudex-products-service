@@ -17,16 +17,16 @@ namespace TallerDos.ProductsService.src.models
         public string Name { get; set; } = null!;
 
         [BsonElement("category")]
-        public string Category { get; set; }
+        public string Category { get; set; } = null!;
 
         [BsonElement("price")]
         public decimal Price { get; set; }
 
         [BsonElement("imageUrl")]
-        public string ImageUrl { get; set; }
+        public string ImageUrl { get; set; } = null!;
 
         [BsonElement("imagePublicId")]
-        public string ImagePublicId { get; set; }
+        public string ImagePublicId { get; set; } = null!;
 
         [BsonElement("isActive")]
         public bool IsActive { get; set; } = true;
