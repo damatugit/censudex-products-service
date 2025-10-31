@@ -7,6 +7,11 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace TallerDos.ProductsService.src.models
 {
+    /// <summary>
+    /// Producto
+    /// </summary> <summary>
+    /// Modelado del producto para el servicio a usar
+    /// </summary>
     public class Product
     {
         [BsonId]
@@ -31,7 +36,7 @@ namespace TallerDos.ProductsService.src.models
         [BsonElement("isActive")]
         public bool IsActive { get; set; } = true;
         
-        [BsonElement("createdAt")]
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        [BsonElement("dateCreated")]
+        public DateTime DateCreated { get; set; } = DateTime.UtcNow;
     }
 }
