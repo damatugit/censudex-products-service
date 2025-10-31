@@ -1,0 +1,6 @@
+@TallerDos.ProductsService_HostAddress = http://localhost:5222
+
+GET {{TallerDos.ProductsService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
