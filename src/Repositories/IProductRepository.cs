@@ -6,6 +6,11 @@ using TallerDos.ProductsService.src.models;
 
 namespace TallerDos.ProductsService.src.Repositories
 {
+    /// <summary>
+    /// Interface de repositorio de productos
+    /// </summary> <summary>
+    /// Interface que declara los metodos que usara el repositorio de productos
+    /// </summary>
     public interface IProductRepository
     {
         Task<IEnumerable<Product>> GetAllAsync();
