@@ -18,6 +18,6 @@ namespace TallerDos.ProductsService.src.Repositories
         Task CreateAsync(Product product);
         Task UpdateAsync(Product product);
         Task SoftDeleteAsync(string id);
-        Task<bool> ExistsByNameAsync(string name, string excludeId);        
+        Task<bool> ExistsByNameAsync(string name, string? excludeId = null);        
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TallerDos.ProductsService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb703a4db2ec0f1f4180d8b3611d04caecbf6464")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82315dc5a3694cc15ed1841786f10c73b4e65f66")]
 [assembly: System.Reflection.AssemblyProductAttribute("TallerDos.ProductsService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TallerDos.ProductsService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

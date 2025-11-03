@@ -44,7 +44,7 @@ namespace TallerDos.ProductsService.src.Repositories
             await _collection.UpdateOneAsync(p => p.Id == id, update);
         }
 
-        public async Task<bool> ExistsByNameAsync(string name, string excludeId)
+        public async Task<bool> ExistsByNameAsync(string name, string? excludeId = null)
         {
             var filter = Builders<Product>.Filter.Eq(p => p.Name, name);
             if (!string.IsNullOrEmpty(excludeId))
