@@ -8,7 +8,7 @@ using TallerDos.ProductsService.src.models;
 
 namespace TallerDos.ProductsService.src.Repositories
 {
-    public class ProductRepository
+    public class ProductRepository : IProductRepository
     {
         private readonly IMongoCollection<Product> _collection;
 
