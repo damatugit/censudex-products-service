@@ -8,6 +8,9 @@ using TallerDos.ProductsService.src.models;
 
 namespace TallerDos.ProductsService.src.Repositories
 {
+    /// <summary>
+    /// Repositorio de los productos, donde se implementan todos los metodos de su interface
+    /// </summary>
     public class ProductRepository : IProductRepository
     {
         private readonly IMongoCollection<Product> _collection;

@@ -7,6 +7,9 @@ using CloudinaryDotNet.Actions;
 
 namespace TallerDos.ProductsService.src.Services
 {
+    /// <summary>
+    /// Configuración de Cloudinary
+    /// </summary>
     public class CloudinarySettings
     {
         public string CloudName { get; set; } = null!;
@@ -14,6 +17,9 @@ namespace TallerDos.ProductsService.src.Services
         public string ApiSecret { get; set; } = null!;
     }
 
+    /// <summary>
+    /// Servicio de Cloudinary
+    /// </summary>
     public class CloudinaryService
     {
         private readonly Cloudinary _cloudinary;

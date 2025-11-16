@@ -8,6 +8,9 @@ using TallerDos.ProductsService.src.Repositories;
 
 namespace TallerDos.ProductsService.src.Services
 {
+    /// <summary>
+    /// Servicio Grpc para configurar puerto del servicio de productos
+    /// </summary>
     public class ProductsGrpcService : ProductService.ProductServiceBase
     {
         private readonly IProductRepository _repo;

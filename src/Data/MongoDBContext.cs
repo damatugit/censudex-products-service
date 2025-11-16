@@ -8,11 +8,18 @@ using TallerDos.ProductsService.src.models;
 
 namespace TallerDos.ProductsService.src.Data
 {
+    /// <summary>
+    /// Configuración de la base de datos MongoDB Atlas
+    /// </summary>
     public class MongoDbSettings
     {
         public string ConnectionString { get; set; } = string.Empty;
         public string DatabaseName { get; set; } = string.Empty;
     }
+
+    /// <summary>
+    /// Contexto de la base de datos MongoDB Atlas
+    /// </summary>
     public class MongoDBContext
     {        
         private readonly IMongoDatabase _database;

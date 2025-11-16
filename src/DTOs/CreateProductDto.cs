@@ -5,6 +5,11 @@ using System.Threading.Tasks;
 
 namespace TallerDos.ProductsService.src.DTOs
 {
+    /// <summary>
+    /// CreateProductoDto
+    /// <summary>
+    /// Dto/modelo para crear un producto
+    /// </summary>
     public class CreateProductDto
     {
         public string Name { get; set; } = null!;

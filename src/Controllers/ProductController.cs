@@ -24,6 +24,10 @@ namespace TallerDos.ProductsService.src.Controllers
         }
 
         // GET: api/products
+        /// <summary>
+        /// Endpoint para obtener TODOS los productos
+        /// </summary>
+        /// <returns>Listado de todos los productos con sus datos correspondientes</returns>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -32,6 +36,11 @@ namespace TallerDos.ProductsService.src.Controllers
         }
 
         // GET: api/products/{id}
+        /// <summary>
+        /// Endoint para obtener un producto con su id como parámetro
+        /// </summary>
+        /// <param name="id">id del producto a obtener</param>
+        /// <returns>el producto con sus datos, de lo contrario un mensaje diciendo que no existe el id</returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(string id)
         {
@@ -41,7 +50,12 @@ namespace TallerDos.ProductsService.src.Controllers
         }
 
         // POST: api/products
-        // [Authorize(Roles = "Admin")] -- habilita cuando tengas auth
+        // [Authorize(Roles = "Admin")]
+        /// <summary>
+        /// Endpoint  para crear un nuevo producto
+        /// </summary>
+        /// <param name="dto">Modelado del producto a realizar</param>
+        /// <returns>exito de la creacion del producto, de lo contrario, error por incumplimiento de parámetro</returns>
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] CreateProductDto dto)
         {
@@ -71,6 +85,12 @@ namespace TallerDos.ProductsService.src.Controllers
 
         // PUT: api/products/{id}
         // [Authorize(Roles = "Admin")]
+        /// <summary>
+        /// Endpoint para actualizar un producto existente
+        /// </summary>
+        /// <param name="id">id del producto a actualizar</param>
+        /// <param name="dto">modelo del producto a actualizar</param>
+        /// <returns>exito de la actualización, de lo contrario, mensaje de error por inexistencia de id</returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] UpdateProductDto dto)
         {
@@ -99,6 +119,11 @@ namespace TallerDos.ProductsService.src.Controllers
 
         // DELETE (soft delete)
         // [Authorize(Roles = "Admin")]
+        /// <summary>
+        /// Endpoint para desactivar un producto existente
+        /// </summary>
+        /// <param name="id">id del producto a desactivar</param>
+        /// <returns>desactivación exitosa, de lo contrario mensaje de inexistencia de id</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {
