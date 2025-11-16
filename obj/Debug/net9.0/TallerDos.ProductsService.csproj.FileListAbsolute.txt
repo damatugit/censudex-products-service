@@ -42,3 +42,10 @@ C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.Prod
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\obj\Debug\net9.0\TallerDos.ProductsService.pdb
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\obj\Debug\net9.0\TallerDos.ProductsService.genruntimeconfig.cache
 C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\obj\Debug\net9.0\ref\TallerDos.ProductsService.dll
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\bin\Debug\net9.0\Google.Protobuf.dll
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\bin\Debug\net9.0\Grpc.AspNetCore.Server.dll
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\bin\Debug\net9.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\bin\Debug\net9.0\Grpc.Core.Api.dll
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\bin\Debug\net9.0\Grpc.Net.Client.dll
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
+C:\Users\damat\Desktop\Arquitectura de sistemas\Talleres\Taller 2\TallerDos.ProductsService\bin\Debug\net9.0\Grpc.Net.Common.dll
