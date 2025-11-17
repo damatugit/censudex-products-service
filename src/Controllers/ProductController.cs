@@ -57,7 +57,7 @@ namespace TallerDos.ProductsService.src.Controllers
         /// <param name="dto">Modelado del producto a realizar</param>
         /// <returns>exito de la creacion del producto, de lo contrario, error por incumplimiento de parámetro</returns>
         [HttpPost]
-        public async Task<IActionResult> Create([FromForm] CreateProductDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateProductDto dto)
         {
             // validaciones básicas
             if (string.IsNullOrWhiteSpace(dto.Name))
